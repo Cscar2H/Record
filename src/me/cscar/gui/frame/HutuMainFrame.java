@@ -1,4 +1,7 @@
-package me.cscar.util.jframe;
+package me.cscar.gui.frame;
+
+import me.cscar.gui.listener.SpendPanelListener;
+import me.cscar.gui.panel.SpendPanel;
 
 import javax.swing.*;
 import java.awt.*;
@@ -38,7 +41,13 @@ public class HutuMainFrame {
         f.add(tb, BorderLayout.NORTH);
         f.add(new JPanel(), BorderLayout.CENTER);
 
+        /*SpendPanel sp = new SpendPanel();
+        f.add(sp, BorderLayout.CENTER);*/
+
         f.setVisible(true);
+
+
+        /*bSpend.addActionListener(new SpendPanelListener(sp));*/
 
         bSpend.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
