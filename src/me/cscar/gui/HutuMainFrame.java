@@ -1,4 +1,4 @@
-package me.cscar.gui.frame;
+package me.cscar.gui;
 
 import me.cscar.gui.listener.SpendPanelListener;
 import me.cscar.gui.panel.SpendPanel;
