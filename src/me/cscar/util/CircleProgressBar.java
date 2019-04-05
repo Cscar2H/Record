@@ -79,10 +79,12 @@ public class CircleProgressBar extends JPanel {
     }
 
     public void setProgress(int progress) {
-        if (progress >= minimumProgress && progress <= maximumProgress)
+        if (progress >= minimumProgress && progress <= maximumProgress) {
             this.progress = progress;
-        if (progress > maximumProgress)
+        }
+        if (progress > maximumProgress) {
             this.progress = maximumProgress;
+        }
 
         this.progressText = String.valueOf(progress + "%");
 
