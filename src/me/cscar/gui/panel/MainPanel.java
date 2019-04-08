@@ -24,6 +24,7 @@ public class MainPanel extends JPanel {
     public JButton bConfig = new JButton();
     public JButton bBackup = new JButton();
     public JButton bRecover = new JButton();
+    public JButton bRandom = new JButton();
 
     /**
      * 不同功能的面板
@@ -34,6 +35,7 @@ public class MainPanel extends JPanel {
     private MainPanel() {
 
         GUIUtil.setImageIcon(bSpend, "home.png", "主页");
+        GUIUtil.setImageIcon(bRandom, "category1.png", "随机");
         GUIUtil.setImageIcon(bRecord, "record.png", "记账");
         GUIUtil.setImageIcon(bCategory, "category2.png", "分类");
         GUIUtil.setImageIcon(bReport, "report.png", "报表");
@@ -42,6 +44,8 @@ public class MainPanel extends JPanel {
         GUIUtil.setImageIcon(bRecover, "restore.png", "恢复");
 
         tb.add(bSpend);
+        tb.add(bRandom);
+        tb.add(bRandom);
         tb.add(bRecord);
         tb.add(bCategory);
         tb.add(bReport);
