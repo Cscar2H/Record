@@ -44,7 +44,7 @@ public class ChartUtil {
         int max = max(sampleValues);
 
         // 数据颜色
-        Color[] sampleColors = new Color[]{ColorUtil.blueColor};
+        Color[] sampleColors = new Color[]{ColorUtil.pinkColor};
 
         // 柱状图
         BarChart chart = new BarChart();

@@ -18,7 +18,7 @@ public class Test2 {
         JPanel p = new JPanel();
         //进度条组件
         CircleProgressBar cpb = new CircleProgressBar();
-        cpb.setBackgroundColor(ColorUtil.blueColor);
+        cpb.setBackgroundColor(ColorUtil.pinkColor);
         cpb.setProgress(0);
         //按钮
         JButton b = new JButton("点击");

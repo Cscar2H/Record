@@ -3,13 +3,17 @@ package me.cscar.util;
 import java.awt.*;
 
 public class ColorUtil {
-    public static Color blueColor = Color.decode("#3399FF");
+    public static Color pinkColor = Color.decode("#FF99C2");
+    public static Color greenColor = Color.decode("#26FF42");
+    public static Color redColor = Color.decode("#FF2677");
+    public static Color cyanColor = Color.decode("#3FC1C9");
     public static Color grayColor = Color.decode("#999999");
     public static Color backgroundColor = Color.decode("#eeeeee");
     public static Color warningColor = Color.decode("#FF3333");
 
     /**
      * 根据进度显示不同的颜色
+     *
      * @param per
      * @return
      */

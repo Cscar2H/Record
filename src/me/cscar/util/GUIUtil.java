@@ -82,8 +82,9 @@ public class GUIUtil {
      * @return
      */
     public static boolean checkZero(JTextField tf, String input) {
-        if (!checkNumber(tf, input))
+        if (!checkNumber(tf, input)) {
             return false;
+        }
         String text = tf.getText().trim();
 
         if (0 == Integer.parseInt(text)) {
