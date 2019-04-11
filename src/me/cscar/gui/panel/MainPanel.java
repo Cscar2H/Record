@@ -6,8 +6,8 @@ import javax.swing.JButton;
 import javax.swing.JPanel;
 import javax.swing.JToolBar;
 
-import me.cscar.util.CenterPanel;
-import me.cscar.util.GUIUtil;
+import me.cscar.gui.util.CenterPanel;
+import me.cscar.gui.util.GUIUtil;
 
 public class MainPanel extends JPanel {
 

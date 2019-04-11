@@ -2,9 +2,9 @@ package me.cscar.gui.panel;
 
 import javax.swing.*;
 
-import me.cscar.util.CircleProgressBar;
-import me.cscar.util.ColorUtil;
-import me.cscar.util.GUIUtil;
+import me.cscar.gui.util.CircleProgressBar;
+import me.cscar.gui.util.ColorUtil;
+import me.cscar.gui.util.GUIUtil;
 
 import java.awt.*;
 

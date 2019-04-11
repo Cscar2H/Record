@@ -8,9 +8,9 @@ import javax.swing.JButton;
 import javax.swing.JPanel;
 import javax.swing.SwingWorker;
 
-import me.cscar.util.CircleProgressBar;
-import me.cscar.util.ColorUtil;
-import me.cscar.util.GUIUtil;
+import me.cscar.gui.util.CircleProgressBar;
+import me.cscar.gui.util.ColorUtil;
+import me.cscar.gui.util.GUIUtil;
 
 public class Test2 {
     public static void main(String[] args) {

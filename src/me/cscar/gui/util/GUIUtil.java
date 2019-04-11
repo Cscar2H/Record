@@ -1,9 +1,8 @@
-package me.cscar.util;
+package me.cscar.gui.util;
 
 import javax.swing.*;
 import java.awt.*;
 import java.io.File;
-import java.io.InputStream;
 
 public class GUIUtil {
 

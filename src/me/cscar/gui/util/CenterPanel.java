@@ -1,4 +1,4 @@
-package me.cscar.util;
+package me.cscar.gui.util;
 
 import javax.swing.*;
 import java.awt.*;

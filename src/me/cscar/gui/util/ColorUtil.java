@@ -1,9 +1,10 @@
-package me.cscar.util;
+package me.cscar.gui.util;
 
 import java.awt.*;
 
 public class ColorUtil {
     public static Color pinkColor = Color.decode("#FF99C2");
+    public static Color blueColor = Color.decode("#3399FF");
     public static Color greenColor = Color.decode("#26FF42");
     public static Color redColor = Color.decode("#FF2677");
     public static Color cyanColor = Color.decode("#3FC1C9");

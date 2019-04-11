@@ -1,6 +1,6 @@
 package me.cscar.Test;
 
-import me.cscar.util.GUIUtil;
+import me.cscar.gui.util.GUIUtil;
 
 import javax.swing.*;
 
@@ -13,5 +13,6 @@ public class Test {
         p.add(new JButton("按钮1"));
         p.add(new JButton("按钮2"));
         GUIUtil.showPanel(p);
+
     }
 }

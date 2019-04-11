@@ -1,4 +1,4 @@
-package me.cscar.util;
+package me.cscar.gui.util;
 
 import java.awt.Color;
 import java.awt.Font;

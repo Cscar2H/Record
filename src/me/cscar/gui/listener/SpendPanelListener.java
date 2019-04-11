@@ -4,12 +4,12 @@ import me.cscar.gui.panel.SpendPanel;
 
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+
 import me.cscar.gui.panel.SpendPanel;
 
 public class SpendPanelListener implements ActionListener {
 
-    //监听器获取panel组件
-
+    //监听器获取Panel组件
     /*private final SpendPanel sp;
 
     public SpendPanelListener(SpendPanel sp) {
@@ -18,6 +18,7 @@ public class SpendPanelListener implements ActionListener {
 
     @Override
     public void actionPerformed(ActionEvent e) {
-        SpendPanel.instance.vAvgSpendPerDay.setText("xxxxx");
+        //SpendPanel.instance.vAvgSpendPerDay.setText("xxxxx");
+        SpendPanel.instance.vAvgSpendPerDay.setText("￥120");
     }
 }
