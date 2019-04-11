@@ -35,7 +35,6 @@ public class MainPanel extends JPanel {
     private MainPanel() {
 
         GUIUtil.setImageIcon(bSpend, "home.png", "主页");
-        GUIUtil.setImageIcon(bRandom, "category1.png", "随机");
         GUIUtil.setImageIcon(bRecord, "record.png", "记账");
         GUIUtil.setImageIcon(bCategory, "category2.png", "分类");
         GUIUtil.setImageIcon(bReport, "report.png", "报表");
