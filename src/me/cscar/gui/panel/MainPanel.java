@@ -24,7 +24,6 @@ public class MainPanel extends JPanel {
     public JButton bConfig = new JButton();
     public JButton bBackup = new JButton();
     public JButton bRecover = new JButton();
-    public JButton bRandom = new JButton();
 
     /**
      * 不同功能的面板
@@ -43,8 +42,6 @@ public class MainPanel extends JPanel {
         GUIUtil.setImageIcon(bRecover, "restore.png", "恢复");
 
         tb.add(bSpend);
-        tb.add(bRandom);
-        tb.add(bRandom);
         tb.add(bRecord);
         tb.add(bCategory);
         tb.add(bReport);
